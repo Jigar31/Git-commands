@@ -1,0 +1,18 @@
+->To install git: sudo apt-get install git
+
+->To configure git with GitHub: 
+	git config --global user.name "user_name"
+	git config --global user.email "email_id" 
+
+->To initialize git: git init folder_name
+
+->To add file/folder for commit: git add file_name/folder_name
+
+->To check which files/folders are gonna be commit: git status
+
+->To commit files/folders: git commit -m "some message"
+
+->To connect to remote repository on GitHub:
+	git remote add origin https://github.com/user_name/repository_name.git
+
+->To get repo from GitHub: git clone https://github.com/user_name/repository_name.git

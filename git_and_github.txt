@@ -79,3 +79,12 @@ Enter the login credentials [user_name and password] .
 The following image shows the procedure from step 5 to step 8
 
 So this adds all the contents of the Mytest folder (my local repository) to GitHub. For subsequent projects or for creating repositories, you can start off with step 3 directly. Finally, if you login to to your GitHub account and click on your Mytest repository, you can see that the 2 files README and sample.c have been uploaded and are visible to all as shown in the follwoing image.
+
+*****To pull files from GitHub
+git clone https://github.com/user_name/folder_name.git
+
+*****To remove file
+git rm file_name/folder_name
+
+*****To undo 'git add' or 'git rm' before commiting
+git reset file_name/folder_name

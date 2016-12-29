@@ -14,6 +14,8 @@
 
 ->To commit files/folders: git commit -m "some message"
 
+->To undo "git add" or "git rm" before commit(i.e. you not want to commit all the files/folder you added): git reset file_name/folder_name
+
 ->To connect to remote repository on GitHub:
 	git remote add origin https://github.com/user_name/repository_name.git
 

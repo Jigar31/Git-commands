@@ -19,5 +19,7 @@
 
 ->To connect to remote repository on GitHub:
 	git remote add origin https://github.com/user_name/repository_name.git
+	
+->To push file to GitHub: git push -u origin master
 
 ->To get repo from GitHub: git clone https://github.com/user_name/repository_name.git
